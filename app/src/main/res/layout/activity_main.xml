@@ -21,7 +21,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             tools:ignore="UselessParent">
-
             <Button
                 android:id="@+id/cancel"
                 android:layout_width="40pt"
@@ -31,7 +30,6 @@
                 android:text="C"
                 android:textSize="25dp"
                 tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded,SpUsage" />
-
             <Button
                 android:id="@+id/btnPi"
                 android:layout_width="40pt"
@@ -41,7 +39,6 @@
                 android:text="Pi"
                 android:textSize="25dp"
                 tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded,SpUsage" />
-
             <Button
                 android:id="@+id/btnPercent"
                 android:layout_width="40pt"
@@ -51,16 +48,31 @@
                 android:text="%"
                 android:textSize="25dp"
                 tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded,SpUsage" />
-
             <Button
                 android:id="@+id/btnDvision"
                 android:layout_width="40pt"
                 android:layout_height="40pt"
                 android:layout_marginLeft="10dp"
                 app:cornerRadius="50dp"
-                android:text=""
-                tools:ignore="ButtonStyle,RtlHardcoded" />
+                android:text="/"
+                android:textSize="25dp"
+                tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded,SpUsage" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            tools:ignore="MissingConstraints,UselessParent">
+            <Button
+                android:id="@+id/btnSeven"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                app:cornerRadius="50dp"
+                android:layout_marginLeft="10dp"
+                android:text="7"
+                android:textSize="25dp"
+                tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded,SpUsage" />
         </TableRow>
     </TableLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
