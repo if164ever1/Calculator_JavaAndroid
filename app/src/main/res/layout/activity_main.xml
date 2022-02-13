@@ -14,6 +14,13 @@
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="124dp"
         tools:layout_editor_absoluteY="16dp">
+        <TableRow
+            android:id="@+id/tableTop"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            tools:ignore="UselessParent">
+        </TableRow>
 
         <TableRow
             android:id="@+id/tableRow1"
@@ -144,5 +151,50 @@
                 android:textSize="25dp"
                 tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded,SpUsage" />
         </TableRow>
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            tools:ignore="MissingConstraints,UselessParent">
+            <Button
+                android:id="@+id/btnOne"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                app:cornerRadius="50dp"
+                android:layout_marginLeft="10dp"
+                android:text="1"
+                android:textSize="25dp"
+                tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded,SpUsage" />
+            <Button
+                android:id="@+id/btnTwo"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                app:cornerRadius="50dp"
+                android:layout_marginLeft="10dp"
+                android:text="2"
+                android:textSize="25dp"
+                tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded,SpUsage" />
+            <Button
+                android:id="@+id/btnThree"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                app:cornerRadius="50dp"
+                android:layout_marginLeft="10dp"
+                android:text="3"
+                android:textSize="25dp"
+                tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded,SpUsage" />
+            <Button
+                android:id="@+id/btnPlus"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                app:cornerRadius="50dp"
+                android:layout_marginLeft="10dp"
+                android:text="+"
+                android:textSize="25dp"
+                tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded,SpUsage" />
+        </TableRow>
+
+
     </TableLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
