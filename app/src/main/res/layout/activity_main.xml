@@ -20,6 +20,7 @@
             android:background="#808080"
             android:textAlignment="textEnd">
             <TextView
+                android:id="@+id/viewResult"
                 android:layout_width="match_parent"
                 android:layout_height="90pt"
                 android:text=" "
