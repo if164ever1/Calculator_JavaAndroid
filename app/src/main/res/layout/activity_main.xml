@@ -101,5 +101,48 @@
                 android:textSize="25dp"
                 tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded,SpUsage" />
         </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            tools:ignore="MissingConstraints,UselessParent">
+            <Button
+                android:id="@+id/btnFour"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                app:cornerRadius="50dp"
+                android:layout_marginLeft="10dp"
+                android:text="4"
+                android:textSize="25dp"
+                tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded,SpUsage" />
+            <Button
+                android:id="@+id/btnFifth"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                app:cornerRadius="50dp"
+                android:layout_marginLeft="10dp"
+                android:text="5"
+                android:textSize="25dp"
+                tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded,SpUsage" />
+            <Button
+                android:id="@+id/btnSix"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                app:cornerRadius="50dp"
+                android:layout_marginLeft="10dp"
+                android:text="6"
+                android:textSize="25dp"
+                tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded,SpUsage" />
+            <Button
+                android:id="@+id/btnSubtract"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                app:cornerRadius="50dp"
+                android:layout_marginLeft="10dp"
+                android:text="-"
+                android:textSize="25dp"
+                tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded,SpUsage" />
+        </TableRow>
     </TableLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
